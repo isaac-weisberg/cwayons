@@ -1,0 +1,10 @@
+{
+    "compilerOptions": {
+        "outDir": "dist",
+        "declaration": true,
+        "jsx": "preserve",
+        "jsxFactory": "crayon",
+        "target": "es6",
+        "moduleResolution": "node"
+    }
+}
