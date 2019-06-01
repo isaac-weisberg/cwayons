@@ -2,9 +2,13 @@
   "name": "cwayons",
   "version": "0.0.1",
   "description": "Fwontend fwamewowk",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
     "start": "npx tsc"
+  },
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/isaac-weisberg/cwayons"
   },
   "author": "",
   "license": "ISC",
