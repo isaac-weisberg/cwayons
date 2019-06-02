@@ -3,7 +3,7 @@
         "outDir": "dist",
         "declaration": true,
         "jsx": "react",
-        "jsxFactory": "crayon",
+        "jsxFactory": "document.createElement",
         "target": "es6",
         "moduleResolution": "node"
     }

@@ -4,7 +4,5 @@ export { View }
 
 
 class SubView extends View<{}> {
-    render() {
-        return 
-    }
+    
 }

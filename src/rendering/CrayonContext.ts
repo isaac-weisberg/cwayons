@@ -1,8 +1,8 @@
 class CrayonContext {
     tree
 
-    constructor(initialTree) {
-        this.tree = initialTree
+    constructor() {
+        
     }
 
     updateTree(tree) {
