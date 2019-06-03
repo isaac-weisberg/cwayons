@@ -1,7 +1,8 @@
-import Renderer, { crayon } from "../rendering/crayon";
+import Crayon, { crayon } from "../rendering/crayon";
 
 class View<Props> {
     private readonly context: CrayonContext
+    readonly renderer: Crayon<undefined>
 
     constructor(props: Props) {
         this.props = props

@@ -5,3 +5,8 @@ declare namespace JSX {
         }
     }
 }
+
+interface CrayonMap {
+    'undefined': undefined
+    'div': HTMLDivElement 
+}
