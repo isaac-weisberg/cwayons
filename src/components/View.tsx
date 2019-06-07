@@ -1,19 +1,13 @@
-import Crayon, { crayon } from "../rendering/crayon";
-
 class View<Props> {
-    private readonly context: CrayonContext
-    readonly renderer: Crayon<undefined>
-
     constructor(props: Props) {
         this.props = props
         // initialize data and bindings
-        this.context = new CrayonContext()
     }
 
     props: Props
 
     render() {
-        return <div class="fucks"/>
+        return undefined
     }
 
     mount(element: HTMLElement) {
@@ -22,6 +16,11 @@ class View<Props> {
         }
 
         const rendered = this.render()
+        if (!rendered) {
+            return
+        } else {
+            element.appendChild(rendered)
+        }
     }
 }
 

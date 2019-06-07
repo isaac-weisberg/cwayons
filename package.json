@@ -4,16 +4,19 @@
   "description": "Fwontend fwamewowk",
   "main": "dist/index.js",
   "scripts": {
-    "start": "npx tsc"
+    "start": "npx webpack --config webpack.config.js"
   },
   "repository": {
-    "type" : "git",
-    "url" : "https://github.com/isaac-weisberg/cwayons"
+    "type": "git",
+    "url": "https://github.com/isaac-weisberg/cwayons"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {},
   "devDependencies": {
-    "typescript": "^3.5.1"
+    "ts-loader": "^6.0.2",
+    "typescript": "^3.5.1",
+    "webpack": "^4.33.0",
+    "webpack-cli": "^3.3.3"
   }
 }

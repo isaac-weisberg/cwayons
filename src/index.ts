@@ -1,8 +1,7 @@
-import View from './components/View'
+import { LengthView } from "./LengthView";
 
-export { View }
+const view = new LengthView({ length: 3 })
 
+const root = document.getElementById("root") 
 
-class SubView extends View<{}> {
-    
-}
+view.mount(root)
